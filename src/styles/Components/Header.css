@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  background-color: transparent;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+.header {
+  background-color: #143c8d;
+  position: fixed;
+  width: 100%;
+}
+.menu-content {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.menu-item h1 {
+  color: #fff;
+  background-size: 100%;
+  margin: 15px auto;
+  margin-left: 0;
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+.menu-item span {
+  color: #fff;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.menu-icon {
+  width: 18px;
+  height: auto;
+  cursor: pointer;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.searchbar {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 3px;
+  width: 700px;
+  height: 40px;
+}
+
+.searchbar input {
+  display: inline-block;
+  width: 650px;
+  height: 32px;
+  color: black;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  font-size: 12pt;
+  padding: 4px 28px 4px 4px;
+  vertical-align: middle;
+}
+
+.searchbar svg {
+  right: 5px;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-item .login {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item .shopping-cart {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
